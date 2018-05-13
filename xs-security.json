@@ -1,0 +1,11 @@
+{
+	"xsappname": "twitAnalytics",
+	"scopes": [{
+		"name": "$XSAPPNAME.USER",
+		"description": "twitAnalytics User"
+	}],
+	"role-templates": [{
+		"name": "twitAnalyticsUser",
+		"scope-references": ["$XSAPPNAME.USER"]
+	}]
+}
